@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 10px;
+
+}
+body {margin: 0%; padding: 0%;}
+.weartake {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-start;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 30px -10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+    margin-top: 25px;
+
+}
+
+nav {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: flex-end
+}
+
+.container {
+    display: flex;
+
+    width: 100%;
+
+}
+
+li {
+    list-style: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+li:hover {
+    list-style: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.geral {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+
+    width: 80%;
+    align-self: center;
+    margin: 0 auto;
+    flex-flow: row nowrap;
+
+}
+
+
+
+.card {
+    border: solid #F5F5F5 3px;
+    width: 197px;
+    height: 382px;
+    cursor: pointer;
+}
+
+.card:hover {
+    border: #37268C solid 3px;
+    width: 197px;
+    height: 382px;
+    cursor: pointer;
+}
+
+
+.divdaimg {
+    background-color: #f5f5f5;
+    height: 140px;
+    width: 197px;
+
+}
+
+.imgProduto {
+    height: 140px;
+    width: 100%;
+
+    -webkit-transition: transform .1s;
+    transition: transform .1s;
+
+    background-color: #f5f5f5;
+
+}
+
+.imgProduto:hover {
+
+    -webkit-animation: pulse .25s;
+    animation: pulse .25s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.2);
+}
+
+.descricao {
+    border: 1px solid #F5F5F5;
+
+    width: 165px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 15px;
+    gap: 1px;
+
+}
+
+.tag {
+    background-color: #2E245E;
+    color: white;
+    width: 60px;
+    text-align: center;
+
+    margin: 4%;
+    padding: 2%;
+}
+
+.nome {
+    font-weight: 700;
+    font-size: 16px;
+    color: #292929;
+    margin: 0%;
+    padding: 2%;
+
+}
+
+.produtodesc {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0%;
+    padding: 2%;
+}
+
+.valor {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2E245E;
+    margin: 0%;
+    padding: 2%;
+}
+
+.addAoCarrinho {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0%;
+    padding: 4%;
+    background-color: transparent;
+    border: none;
+
+
+}
+
+.addAoCarrinho:hover {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0%;
+    padding: 4%;
+    text-decoration-line: underline;
+    color: #2E245E;
+    cursor: pointer;
+}
+
+
+main {
+
+
+    width: 700px;
+    height: 1000px;
+    margin-top: 50px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+
+
+
+    justify-content: flex-start;
+    gap: 10px;
+
+}
+
+.sidepage {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+    width: 348px;
+    height: auto;
+
+
+
+}
+
+.divTotal {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    width: 345px;
+    background-color: #242424;
+    ;
+    height: 150px;
+    align-items: center;
+}
+
+#quantidadeProdutos {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.quantidadeProdutos2 {
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+#precoTotal {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.precoTotal2 {
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.container2 {
+    display: flex;
+    gap: 14px;
+}
+
+.barraDePesquisa {}
+
+input {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 246px;
+    height: 50px;
+    background: #F5F5F5;
+    border: 1px solid #F5F5F5;
+
+}
+
+::placeholder {
+    width: 163px;
+    height: 16px;
+    left: 1152px;
+    top: 139px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 4px;
+    font-weight: 400;
+    color: #242424;
+
+}
+
+.pesquisar {
+    width: 96px;
+    height: 50px;
+    left: 1392px;
+    top: 122px;
+    margin-left: 250px;
+    background: #37268C;
+    width: 96px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+    border-style: none;
+}
+
+.carrinhoDeCompras {
+    width: 350px;
+    height: 300px;
+
+
+    margin-top: 50px;
+}
+
+.buttonCarrinhoDeCompras {
+    width: 348px;
+    height: 50px;
+    left: 1138px;
+    top: 202px;
+    background: #37268C;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.carrinhoVazio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 10px;
+
+    position: absolute;
+    width: 348px;
+    height: 400px;
+    background: #F5F5F5;
+
+    overflow-y: scroll;
+
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+
+
+}
+
+.h3CarrinhoVazio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    align-self: center;
+    color: #292929;
+}
+
+.pCarrinhoVazio {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #242424;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    align-self: center;
+}
+
+
+.containerfooter {
+    margin-top: 50px;
+    width: 100%;
+
+    background-color: #2E245E;
+    box-shadow: -10px 4px 30px 0px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.alinhamentoFooter {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    margin-right: 500px;
+    justify-content: flex-start;
+    margin: 0%;
+    padding: 0%;
+}
+
+.imglogo {
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.nomesFooter {
+    font-size: 16px;
+    margin-top: 20px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.h6inf {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.redeSociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    margin-right: 50px;
+}
+
+.direitos {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 900;
+    margin-left: 30px;
+}
+
+/* carrinho */
+
+.itemCarrinho {
+    width: 340px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.divDescricaoCarrinho {
+
+    display: flex;
+    margin-top: 20px;
+
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.divDescricaoCarrinho div {
+    width: 117px;
+    display: flex;
+
+    flex-direction: column;
+}
+
+.imgItemCarrinho {
+    width: 88px;
+    height: 77px;
+
+}
+
+.nomeItemCarrinho {
+
+
+    font-size: 14px;
+    ;
+    font-weight: 700;
+    color: #333333;
+    margin: 0%;
+}
+
+.precoItemCarrinho {
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2E245E;
+}
+
+.divRemoverCarrinho {
+    display: flex;
+    margin-top: 50px;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.removerDoCarrinho {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0%;
+    padding: 4%;
+    background-color: transparent;
+    border: none;
+
+
+}
+
+.removerDoCarrinho:hover {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0%;
+    padding: 4%;
+    text-decoration-line: underline;
+    color: #2E245E;
+    cursor: pointer;
+}
